@@ -1,2 +1,4 @@
+com/max/MaximumException.java
+ com.max.MaximumException
 com/max/Maximum.java
  com.max.Maximum

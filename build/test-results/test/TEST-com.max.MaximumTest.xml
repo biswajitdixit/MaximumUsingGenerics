@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.max.MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-02-04T16:16:51" hostname="LAPTOP-UDE41EKB" time="0.004">
+<testsuite name="com.max.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-04T16:55:52" hostname="LAPTOP-UDE41EKB" time="0.005">
   <properties/>
-  <testcase name="givenFirstIntegerNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
-  <testcase name="givenListOfFloats_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenListOfIntegers_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenThirdFloatNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenSecondStringAsLarge_ShouldReturn_ThirdStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenFirstFloatNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenThirdIntegerNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenSecondIntegerNumberAsLarge_ShouldReturn_SecondNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenListOfStrings_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenSecondFloatNumberAsLarge_ShouldReturn_SecondNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenFirstStringAsLarge_ShouldReturn_FirstStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenThirdStringAsLarge_ShouldReturn_ThirdStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenForthStringAsLarge_ShouldReturn_ForthStringAsMax" classname="com.max.MaximumTest" time="0.005"/>
+  <system-out><![CDATA[Max Value = MANGOES
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
