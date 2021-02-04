@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.max.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-04T14:14:17" hostname="LAPTOP-UDE41EKB" time="0.002">
+<testsuite name="com.max.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-04T14:29:21" hostname="LAPTOP-UDE41EKB" time="0.001">
   <properties/>
-  <testcase name="givenThirdNumberAsLarge_Return_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenThirdNumberAsLarge_Return_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenFirstNumberAsLarge_Return_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenSecondNumberAsLarge_Return_SecondNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
