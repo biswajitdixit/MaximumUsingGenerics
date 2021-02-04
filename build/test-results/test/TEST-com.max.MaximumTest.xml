@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.max.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-02-04T15:46:10" hostname="LAPTOP-UDE41EKB" time="0.007">
+<testsuite name="com.max.MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-02-04T16:16:51" hostname="LAPTOP-UDE41EKB" time="0.004">
   <properties/>
-  <testcase name="givenFirstIntegerNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.003"/>
-  <testcase name="givenThirdFloatNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenFirstIntegerNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenListOfFloats_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenListOfIntegers_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenThirdFloatNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenSecondStringAsLarge_ShouldReturn_ThirdStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenFirstFloatNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenThirdIntegerNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenThirdIntegerNumberAsLarge_ShouldReturn_ThirdNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenSecondIntegerNumberAsLarge_ShouldReturn_SecondNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenListOfStrings_ShouldReturn_MaxValue" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenSecondFloatNumberAsLarge_ShouldReturn_SecondNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <testcase name="givenFirstStringAsLarge_ShouldReturn_FirstStringAsMax" classname="com.max.MaximumTest" time="0.001"/>
-  <testcase name="givenSecondStringAsLarge_ShouldReturn_SecondStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenFirstStringAsLarge_ShouldReturn_FirstStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenThirdStringAsLarge_ShouldReturn_ThirdStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <system-out><![CDATA[Max Value = 48
-Max Value = 100.0
-Max Value = 20.0
-Max Value = 10
-Max Value = 72
-Max Value = 50.0
-Max Value = MANGOES
-Max Value = MANGOES
-Max Value = MANGOES
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
