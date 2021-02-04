@@ -8,22 +8,22 @@ public class MaximumTest {
 
     //Test Case 1.1
     @Test
-    public void givenFirstNumberAsLarge_Return_FirstNumberAsMax() {
-        Float max = findMax.Max(25.58f, 10.5f, 7.5f);
-        Assert.assertEquals((Float) 25.58f, max);
+    public void givenFirstNumberAsLarge_Return_FirstStringAsMax() {
+        String max = findMax.Max("DRAGON", "CAKE", "CAT");
+        Assert.assertEquals((String) "DRAGON" , max);
     }
 
     //Test Case 1.2
     @Test
-    public void givenSecondNumberAsLarge_Return_SecondNumberAsMax() {
-        Float max = findMax.Max(35.45f, 46.35f, 10.4f);
-        Assert.assertEquals((Float) 46.35f, max);
+    public void givenSecondNumberAsLarge_Return_SecondStringAsMax() {
+        String max = findMax.Max("DOG", "MANGO", "CAKE");
+        Assert.assertEquals((String) "MANGO", max);
     }
 
     //Test case 1.3
     @Test
-    public void givenThirdNumberAsLarge_Return_ThirdNumberAsMax() {
-        Float max = findMax.Max(35.5f, 25.4f, 140.4f);
-        Assert.assertEquals((Float) 140.4f, max);
+    public void givenThirdNumberAsLarge_Return_ThirdStringAsMax() {
+        String max = findMax.Max("CAT", "CAKE", "DOCTOR");
+        Assert.assertEquals((String) "DOCTOR", max);
     }
 }
