@@ -1,20 +1,28 @@
 package com.max;
 
 
-public class Maximum
-{
-    public <E extends Comparable> E Max(E firstValue, E secondValue, E thirdValue){
-        E max = firstValue;
-        if (secondValue.compareTo(max) > 0) {
-            max = secondValue;
-        }
-        if (thirdValue.compareTo(max) > 0) {
-            max = thirdValue;
-        }
-        printMax(max);
-        return max;
+public class Maximum<E extends Comparable<E>> {
+    E[] values;
+
+    public Maximum(E[] values) {
+        this.values = values;
     }
-    public <E> void printMax(E max){
-        System.out.println("Max Value = "+max);
+
+    public static <E> void printMax(E max) {
+        System.out.println("Max Value = " + max);
+    }
+
+
+    public E max() {
+        if (values[0].compareTo(values[1]) > 0 && values[0].compareTo(values[2]) > 0) {
+            printMax(values[0]);
+            return values[0];
+        } else if (values[1].compareTo(values[0]) > 0 && values[1].compareTo(values[2]) > 0) {
+            printMax(values[1]);
+            return values[1];
+        } else {
+            printMax(values[2]);
+            return values[2];
+        }
     }
 }

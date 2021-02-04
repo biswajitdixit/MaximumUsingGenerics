@@ -4,67 +4,68 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MaximumTest {
-    Maximum findMax = new Maximum();
 
-    //Test Case 1.1
+
     @Test
-    public void givenFirstNumberAsLarge_Return_FirstStringAsMax() {
-        String max = findMax.Max("DRAGON", "CAKE", "CAT");
-        Assert.assertEquals((String) "DRAGON" , max);
+    public void givenFirstIntegerNumberAsLarge_ShouldReturn_FirstNumberAsMax() {
+        Integer[] integerValues = {48, 5, 1};
+        Integer max = new Maximum<>(integerValues).max();
+        Assert.assertEquals((Integer) 48, max);
     }
 
-    //Test Case 1.2
     @Test
-    public void givenSecondNumberAsLarge_Return_SecondStringAsMax() {
-        String max = findMax.Max("DOG", "MANGO", "CAKE");
-        Assert.assertEquals((String) "MANGO", max);
+    public void givenSecondIntegerNumberAsLarge_ShouldReturn_SecondNumberAsMax() {
+        Integer[] integerValues = {27, 72, 45};
+        Integer max = new Maximum<>(integerValues).max();
+        Assert.assertEquals((Integer) 72, max);
     }
 
-    //Test case 1.3
     @Test
-    public void givenThirdNumberAsLarge_Return_ThirdStringAsMax() {
-        String max = findMax.Max("CAT", "CAKE", "DOCTOR");
-        Assert.assertEquals((String) "DOCTOR", max);
+    public void givenThirdIntegerNumberAsLarge_ShouldReturn_ThirdNumberAsMax() {
+        Integer[] integerValues = {2, 5, 10};
+        Integer max = new Maximum<>(integerValues).max();
+        Assert.assertEquals((Integer) 10, max);
     }
 
-    //Test Case 1.1
     @Test
-    public void givenFirstNumberAsLarge_Return_FirstIntegerNumberAsMax() {
-        Integer max = findMax.Max(25, 10, 7);
-        Assert.assertEquals((Integer) 25, max);
+    public void givenFirstFloatNumberAsLarge_ShouldReturn_FirstNumberAsMax() {
+        Float[] floatValues = {20f, 5f, 1f};
+        Float max = new Maximum<>(floatValues).max();
+        Assert.assertEquals((Float) 20f, max);
     }
 
-    //Test Case 1.2
     @Test
-    public void givenSecondNumberAsLarge_Return_SecondIntegerNumberAsMax() {
-        Integer max = findMax.Max(35, 46, 10);
-        Assert.assertEquals((Integer) 46, max);
+    public void givenSecondFloatNumberAsLarge_ShouldReturn_SecondNumberAsMax() {
+        Float[] floatValues = {20f, 50f, 10f};
+        Float max = new Maximum<>(floatValues).max();
+        Assert.assertEquals((Float) 50f, max);
     }
 
-    //Test case 1.3
     @Test
-    public void givenThirdNumberAsLarge_Return_ThirdIntegerNumberAsMax() {
-        Integer max = findMax.Max(35, 25, 140);
-        Assert.assertEquals((Integer) 140, max);
-    }
-    //Test Case 1.1
-    @Test
-    public void givenFirstNumberAsLarge_Return_FirstFloatNumberAsMax() {
-        Float max = findMax.Max(25.58f, 10.5f, 7.5f);
-        Assert.assertEquals((Float) 25.58f, max);
+    public void givenThirdFloatNumberAsLarge_ShouldReturn_ThirdNumberAsMax() {
+        Float[] floatValues = {2f, 15f, 100f};
+        Float max = new Maximum<>(floatValues).max();
+        Assert.assertEquals((Float) 100f, max);
     }
 
-    //Test Case 1.2
     @Test
-    public void givenSecondNumberAsLarge_Return_SecondFloatNumberAsMax() {
-        Float max = findMax.Max(35.45f, 46.35f, 10.4f);
-        Assert.assertEquals((Float) 46.35f, max);
+    public void givenFirstStringAsLarge_ShouldReturn_FirstStringAsMax() {
+        String[] stringValues = {"MANGOES", "HELLO", "DAS"};
+        String max = new Maximum<>(stringValues).max();
+        Assert.assertEquals("MANGOES", max);
     }
 
-    //Test case 1.3
     @Test
-    public void givenThirdNumberAsLarge_Return_ThirdFloatNumberAsMax() {
-        Float max = findMax.Max(35.5f, 25.4f, 140.4f);
-        Assert.assertEquals((Float) 140.4f, max);
+    public void givenSecondStringAsLarge_ShouldReturn_SecondStringAsMax() {
+        String[] stringValues = {"HELLO", "MANGOES", "DAS"};
+        String max = new Maximum<>(stringValues).max();
+        Assert.assertEquals("MANGOES", max);
+    }
+
+    @Test
+    public void givenThirdStringAsLarge_ShouldReturn_ThirdStringAsMax() {
+        String[] stringValues = {"HELLO", "DAS", "MANGOES"};
+        String max = new Maximum<>(stringValues).max();
+        Assert.assertEquals("MANGOES", max);
     }
 }
