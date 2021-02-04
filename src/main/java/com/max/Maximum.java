@@ -3,16 +3,18 @@ package com.max;
 
 public class Maximum
 {
-
-    public String Max(String firstNumber, String secondNumber, String thirdNumber) {
-        String max = firstNumber;
-        if (secondNumber.compareTo(max) > 0) {
-            max = secondNumber;
+    public <E extends Comparable> E Max(E firstValue, E secondValue, E thirdValue){
+        E max = firstValue;
+        if (secondValue.compareTo(max) > 0) {
+            max = secondValue;
         }
-        if (thirdNumber.compareTo(max) > 0) {
-            max = thirdNumber;
+        if (thirdValue.compareTo(max) > 0) {
+            max = thirdValue;
         }
+        printMax(max);
         return max;
     }
-
+    public <E> void printMax(E max){
+        System.out.println("Max Value = "+max);
+    }
 }

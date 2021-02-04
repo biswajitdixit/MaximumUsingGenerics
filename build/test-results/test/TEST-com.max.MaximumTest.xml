@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.max.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-04T14:45:52" hostname="LAPTOP-UDE41EKB" time="0.002">
+<testsuite name="com.max.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-02-04T15:04:04" hostname="LAPTOP-UDE41EKB" time="0.008">
   <properties/>
-  <testcase name="givenFirstNumberAsLarge_Return_FirstStringAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenFirstNumberAsLarge_Return_FirstStringAsMax" classname="com.max.MaximumTest" time="0.004"/>
   <testcase name="givenSecondNumberAsLarge_Return_SecondStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenSecondNumberAsLarge_Return_SecondIntegerNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenThirdNumberAsLarge_Return_ThirdIntegerNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
   <testcase name="givenThirdNumberAsLarge_Return_ThirdStringAsMax" classname="com.max.MaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenFirstNumberAsLarge_Return_FirstIntegerNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenThirdNumberAsLarge_Return_ThirdFloatNumberAsMax" classname="com.max.MaximumTest" time="0.001"/>
+  <testcase name="givenFirstNumberAsLarge_Return_FirstFloatNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <testcase name="givenSecondNumberAsLarge_Return_SecondFloatNumberAsMax" classname="com.max.MaximumTest" time="0.0"/>
+  <system-out><![CDATA[Max Value = DRAGON
+Max Value = MANGO
+Max Value = 46
+Max Value = 140
+Max Value = DOCTOR
+Max Value = 25
+Max Value = 140.4
+Max Value = 25.58
+Max Value = 46.35
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
